@@ -5,7 +5,7 @@ at the [satRdays]() conference in Budapest, 3 September 2016.
 
 #### Presentation
 
-<iframe src="http://www.slideshare.net/MarkVanDerLoo/slideshelf" width="615px" height="470px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+
 
 #### Packages used
 
