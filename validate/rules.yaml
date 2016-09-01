@@ -1,0 +1,41 @@
+rules:
+- expr: staff >= 0
+  name: V1
+  label: 'nonnegative staff'
+  description: ''
+  created: 2016-09-01 19:25:03
+  origin: command-line
+- expr: turnover >= 0
+  name: V2
+  label: 'nonnegative turnover'
+  description: ''
+  created: 2016-09-01 19:25:03
+  origin: command-line
+- expr: other.rev >= 0
+  name: V3
+  label: 'nonnegative other rev'
+  description: ''
+  created: 2016-09-01 19:25:03
+  origin: command-line
+- expr: total.rev >= 0
+  name: V4
+  label: 'nonnegative total rev'
+  description: ''
+  created: 2016-09-01 19:25:03
+  origin: command-line
+- expr: turnover + other.rev == total.rev
+  name: V5
+  label: 'Revenue balance'
+  description: >
+    Total revenue can be decomposed in turnover and other revenue.
+  created: 2016-09-01 19:25:03
+  origin: command-line
+- expr: if (staff > 0) staff.costs > 0
+  name: V6
+  label: 'positive staff => positive costs'
+  description: >
+    As far as we know, most people working in retail would like
+    to get paid.
+  created: 2016-09-01 19:25:03
+  origin: command-line
+
