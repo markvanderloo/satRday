@@ -5,7 +5,7 @@ at the [satRdays]() conference in Budapest, 3 September 2016.
 
 #### Presentation
 
-
+Available on [slideshare](http://www.slideshare.net/MarkVanDerLoo/sat-rday)
 
 #### Packages used
 
