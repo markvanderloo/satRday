@@ -17,9 +17,9 @@ To run the scripts, install the packages with the script below (you need
 install.packages(c("deductive","drat","stringdist","stringr","validate","VIM"))
 ## pkgs not on CRAN yet:
 drat::addRepo("markvanderloo")
-install.packages("simputation")
+install.packages("simputation", type="source")
 drat::addRepo("data-cleaning") 
-install.packages("errorlocate")
+install.packages("errorlocate", type="source")
 ```
 
 
