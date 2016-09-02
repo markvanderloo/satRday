@@ -1,11 +1,11 @@
 ### A systematic approach to datacleaning with R
 
 This repo is has some data, scripts and other materials supporting the tutorial given
-at the [satRdays]() conference in Budapest, 3 September 2016.
+at the [satRday](http://budapest.satrdays.org/) conference in Budapest, 3 September 2016.
 
 #### Presentation
 
-The presentation slides are on [slideshare]()
+Available on [slideshare](http://www.slideshare.net/MarkVanDerLoo/sat-rday)
 
 #### Packages used
 
@@ -17,9 +17,9 @@ To run the scripts, install the packages with the script below (you need
 install.packages(c("deductive","drat","stringdist","stringr","validate","VIM"))
 ## pkgs not on CRAN yet:
 drat::addRepo("markvanderloo")
-install.packages("simputation")
+install.packages("simputation", type="source")
 drat::addRepo("data-cleaning") 
-install.packages("errorlocate")
+install.packages("errorlocate", type="source")
 ```
 
 
