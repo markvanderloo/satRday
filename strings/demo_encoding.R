@@ -22,13 +22,13 @@ stringi::stri_encode(b,from="UTF-8",to="ASCII")
 iconv(b, from ="UTF-8", to="ASCII//TRANSLIT")
 
 ## or, with stringi 
-stri_trans_general(b, "latin-ascii")
+stringi::stri_trans_general(b, "latin-ascii")
 
 ## Unicode normalization ----
 str <- read.csv2("strings/motorheads.csv",stringsAsFactors=FALSE)$band
 str
 str[1] == str[2]
 
-str2 <- stri_trans_nfkc(str)
+str2 <- stringi::stri_trans_nfkc(str)
 str2
 str2[1] == str2[2]

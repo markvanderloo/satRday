@@ -14,6 +14,7 @@ match(gender, codes)
 # normalize (using magrittr here for %>%)
 library(magrittr)
 gender_norm <- gender %>% tolower() %>% trimws()
+gender_norm
 match(gender_norm, codes)
 
 # allow for some slack between the data and the lookup table

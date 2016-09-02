@@ -1,6 +1,6 @@
-source("trim/parse_outfile.R")
+source("parse/parse_outfile.R")
 
-to <- read_tof("trim/skylark-1d.out")
+to <- read_tof("parse/skylark-1d.out")
 to
 
 get_n_site(to)
